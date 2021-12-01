@@ -1,0 +1,551 @@
+CÓDIGO
+> use dbG6Hotel
+db.clientes.insert({'name':'Joel'}); 
+db.clientes.insert({'name':'Sebastián'}); 
+db.clientes.insert({'name':'Fabián'}); 
+db.clientes.insert({'name':'Jorge'}); 
+db.clientes.insert({'name':'Aurelio'});
+db.clientes.insert({'name':'Ana'}); 
+db.clientes.insert({'name':'Pepe'}); 
+db.clientes.insert({'name':'José'}); 
+db.clientes.insert({'name':'Ricardo'}); 
+db.clientes.insert({'name':'Alejandra'}); 
+db.clientes.insert({'name':'Sara'}); 
+db.clientes.insert({'name':'Josefa'}); 
+db.clientes.insert({'name':'Nicole'}); 
+db.clientes.insert({'name':'Alisson'}); 
+db.clientes.insert({'name':'Naomy'}); 
+db.clientes.insert({'name':'Fiona'}); 
+db.clientes.insert({'name':'Victor'}); 
+db.clientes.insert({'name':'Lucas'}); 
+db.clientes.insert({'name':'Antonio'}); 
+db.clientes.insert({'name':'Miguel'}); 
+db.clientes.insert({'name':'Jesús'}); 
+db.clientes.insert({'name':'Roberto'}); 
+db.clientes.insert({'name':'Anderson'}); 
+db.clientes.insert({'name':'Diana'}); 
+db.clientes.insert({'name':'Ferran'}); 
+db.clientes.insert({'name':'Gorka'}); 
+db.clientes.insert({'name':'Leonardo'}); 
+db.clientes.insert({'name':'Darío'}); 
+db.clientes.insert({'name':'Angie'}); 
+db.clientes.insert({'name':'Juliana'}); 
+db.clientes.insert({'name':'Teodoro'}); 
+db.clientes.insert({'name':'Fermin'}); 
+db.clientes.insert({'name':'Alfonsa'}); 
+db.clientes.insert({'name':'Silvia'}); 
+db.clientes.insert({'name':'Eusebio'}); 
+db.clientes.insert({'name':'Noe'}); 
+db.clientes.insert({'name':'Cecilia'}); 
+db.clientes.insert({'name':'Reginaldo'}); 
+db.clientes.insert({'name':'Leonel'}); 
+db.clientes.insert({'name':'Cristiano'}); 
+db.clientes.insert({'name':'Naiara'}); 
+db.clientes.insert({'name':'Laureano'}); 
+db.clientes.insert({'name':'Adriana'}); 
+db.clientes.insert({'name':'Constantin'}); 
+db.clientes.insert({'name':'Jesica'}); 
+db.clientes.insert({'name':'Ximena'}); 
+db.clientes.insert({'name':'Azucena'}); 
+db.clientes.insert({'name':'Mariano'}); 
+db.clientes.insert({'name':'Desiree'}); 
+db.clientes.insert({'name':'Andoni'}); 
+db.clientes.insert({'name':'Maite'}); 
+db.clientes.insert({'name':'Leo'}); 
+db.clientes.insert({'name':'Fernando'}); 
+db.clientes.insert({'name':'Fernanda'}); 
+db.clientes.insert({'name':'Azahara'}); 
+db.clientes.insert({'name':'ÓScar'}); 
+db.clientes.insert({'name':'Pamela'}); 
+db.clientes.insert({'name':'Andy'}); 
+db.clientes.insert({'name':'Goku'}); 
+db.clientes.insert({'name':'Hiko'}); 
+db.clientes.insert({'name':'Mixwell'}); 
+db.clientes.insert({'name':'Hasbulla'}); 
+db.clientes.insert({'name':'Nukye'}); 
+db.clientes.insert({'name':'Keloz'}); 
+db.clientes.insert({'name':'Andres'});  	
+db.clientes.insert({'name':'Cris'}); 
+db.clientes.insert({'name':'Cristian'}); 
+db.clientes.insert({'name':'Cristiana'}); 
+db.clientes.insert({'name':'Carmen'}); 
+db.clientes.insert({'name':'Carmela'}); 
+db.clientes.insert({'name':'Darwin'}); 
+db.clientes.insert({'name':'Charles'}); 
+db.clientes.insert({'name':'Fiorella'}); 
+db.clientes.insert({'name':'Rosa'}); 
+db.clientes.insert({'name':'Mela'}); 
+db.clientes.insert({'name':'Melany'}); 
+db.clientes.insert({'name':'Milena'}); 
+db.clientes.insert({'name':'Niurka'}); 
+db.clientes.insert({'name':'Sofia'}); 
+db.clientes.insert({'name':'Loefal'}); 
+db.clientes.insert({'name':'Eneko'}); 
+db.clientes.insert({'name':'Tina'}); 
+db.clientes.insert({'name':'Ben'}); 
+db.clientes.insert({'name':'Xavi'}); 
+db.clientes.insert({'name':'Iniesta'}); 
+db.clientes.insert({'name':'Puebla'}); 
+db.clientes.insert({'name':'Risos'}); 
+db.clientes.insert({'name':'Ronald'}); 
+db.clientes.insert({'name':'Javier'}); 
+db.clientes.insert({'name':'Andrea'}); 
+db.clientes.insert({'name':'Andriana'}); 
+db.clientes.insert({'name':'Mishell'}); 
+db.clientes.insert({'name':'Estefano'}); 
+db.clientes.insert({'name':'Estefania'}); 
+db.clientes.insert({'name':'Lupe'}); 
+db.clientes.insert({'name':'Yadira'}); 
+db.clientes.insert({'name':'Ole'}); 
+db.clientes.insert({'name':'Olevida'}); 
+db.clientes.insert({'name':'Gojan'}); 
+db.clientes.insert({'name':'Pablo'});> var allRecords = db.clientes.find();
+> while (allRecords.hasNext()){
+... printjson(allRecords.next());
+... }
+{ "_id" : ObjectId("61a1198a9c2c189d8a645c73"), "name" : "Joel" }
+{ "_id" : ObjectId("61a1199b9c2c189d8a645c74"), "name" : "Sebastián" }
+{ "_id" : ObjectId("61a119aa9c2c189d8a645c75"), "name" : "Fabián" }
+{ "_id" : ObjectId("61a119b29c2c189d8a645c76"), "name" : "Jorge" }
+{ "_id" : ObjectId("61a119d89c2c189d8a645c77"), "name" : "Aurelio" }
+{ "_id" : ObjectId("61a119de9c2c189d8a645c78"), "name" : "Ana" }
+{ "_id" : ObjectId("61a119e39c2c189d8a645c79"), "name" : "Pepe" }
+{ "_id" : ObjectId("61a119ed9c2c189d8a645c7a"), "name" : "José" }
+{ "_id" : ObjectId("61a119f49c2c189d8a645c7b"), "name" : "Ricardo" }
+{ "_id" : ObjectId("61a119fd9c2c189d8a645c7c"), "name" : "Alejandra" }
+{ "_id" : ObjectId("61a11a099c2c189d8a645c7d"), "name" : "Sara" }
+{ "_id" : ObjectId("61a11a239c2c189d8a645c7e"), "name" : "Josefa" }
+{ "_id" : ObjectId("61a11a319c2c189d8a645c7f"), "name" : "Nicole" }
+{ "_id" : ObjectId("61a11a379c2c189d8a645c80"), "name" : "Alisson" }
+{ "_id" : ObjectId("61a11a3d9c2c189d8a645c81"), "name" : "Naomy" }
+{ "_id" : ObjectId("61a11a439c2c189d8a645c82"), "name" : "Fiona" }
+{ "_id" : ObjectId("61a11a509c2c189d8a645c83"), "name" : "Victor" }
+{ "_id" : ObjectId("61a11a5f9c2c189d8a645c84"), "name" : "Lucas" }
+{ "_id" : ObjectId("61a11a809c2c189d8a645c85"), "name" : "Antonio" }
+{ "_id" : ObjectId("61a11a8b9c2c189d8a645c86"), "name" : "Miguel" }
+{ "_id" : ObjectId("61a11aa29c2c189d8a645c87"), "name" : "Jesús" }
+{ "_id" : ObjectId("61a11aa99c2c189d8a645c88"), "name" : "Roberto" }
+{ "_id" : ObjectId("61a11aaf9c2c189d8a645c89"), "name" : "Anderson" }
+{ "_id" : ObjectId("61a11ad39c2c189d8a645c8a"), "name" : "Diana" }
+{ "_id" : ObjectId("61a11ae49c2c189d8a645c8b"), "name" : "Ferran" }
+{ "_id" : ObjectId("61a11af29c2c189d8a645c8c"), "name" : "Gorka" }
+{ "_id" : ObjectId("61a11b029c2c189d8a645c8d"), "name" : "Leonardo" }
+{ "_id" : ObjectId("61a11b0c9c2c189d8a645c8e"), "name" : "Darío" }
+{ "_id" : ObjectId("61a11b129c2c189d8a645c8f"), "name" : "Angie" }
+{ "_id" : ObjectId("61a11b539c2c189d8a645c90"), "name" : "Juliana" }
+{ "_id" : ObjectId("61a11b919c2c189d8a645c91"), "name" : "Teodoro" }
+{ "_id" : ObjectId("61a11b9e9c2c189d8a645c92"), "name" : "Fermin" }
+{ "_id" : ObjectId("61a11bac9c2c189d8a645c93"), "name" : "Alfonsa" }
+{ "_id" : ObjectId("61a11bc19c2c189d8a645c94"), "name" : "Silvia" }
+{ "_id" : ObjectId("61a11bcf9c2c189d8a645c95"), "name" : "Eusebio" }
+{ "_id" : ObjectId("61a11bdc9c2c189d8a645c96"), "name" : "Noe" }
+{ "_id" : ObjectId("61a11bec9c2c189d8a645c97"), "name" : "Cecilia" }
+{ "_id" : ObjectId("61a11bf39c2c189d8a645c98"), "name" : "Reginaldo" }
+{ "_id" : ObjectId("61a11bf99c2c189d8a645c99"), "name" : "Leonel" }
+{ "_id" : ObjectId("61a11c129c2c189d8a645c9a"), "name" : "Cristiano" }
+{ "_id" : ObjectId("61a11c239c2c189d8a645c9b"), "name" : "Naiara" }
+{ "_id" : ObjectId("61a11c339c2c189d8a645c9c"), "name" : "Laureano" }
+{ "_id" : ObjectId("61a11c469c2c189d8a645c9d"), "name" : "Adriana" }
+{ "_id" : ObjectId("61a11c589c2c189d8a645c9e"), "name" : "Constantin" }
+{ "_id" : ObjectId("61a11c6e9c2c189d8a645c9f"), "name" : "Jesica" }
+{ "_id" : ObjectId("61a11c749c2c189d8a645ca0"), "name" : "Ximena" }
+{ "_id" : ObjectId("61a11c879c2c189d8a645ca1"), "name" : "Azucena" }
+{ "_id" : ObjectId("61a11c999c2c189d8a645ca2"), "name" : "Mariano" }
+{ "_id" : ObjectId("61a11cf09c2c189d8a645ca3"), "name" : "Desiree" }
+{ "_id" : ObjectId("61a11cff9c2c189d8a645ca4"), "name" : "Andoni" }
+{ "_id" : ObjectId("61a11d0b9c2c189d8a645ca5"), "name" : "Maite" }
+{ "_id" : ObjectId("61a11d109c2c189d8a645ca6"), "name" : "Leo" }
+{ "_id" : ObjectId("61a11d169c2c189d8a645ca7"), "name" : "Fernando" }
+{ "_id" : ObjectId("61a11d199c2c189d8a645ca8"), "name" : "Fernanda" }
+{ "_id" : ObjectId("61a11d559c2c189d8a645ca9"), "name" : "Azahara" }
+{ "_id" : ObjectId("61a11d629c2c189d8a645caa"), "name" : "ÓScar" }
+{ "_id" : ObjectId("61a11d729c2c189d8a645cab"), "name" : "Pamela" }
+{ "_id" : ObjectId("61a11d789c2c189d8a645cac"), "name" : "Andy" }
+{ "_id" : ObjectId("61a11d7d9c2c189d8a645cad"), "name" : "Goku" }
+{ "_id" : ObjectId("61a11d8c9c2c189d8a645cae"), "name" : "Hiko" }
+{ "_id" : ObjectId("61a11d919c2c189d8a645caf"), "name" : "Mixwell" }
+{ "_id" : ObjectId("61a11d979c2c189d8a645cb0"), "name" : "Hasbulla" }
+{ "_id" : ObjectId("61a11d9d9c2c189d8a645cb1"), "name" : "Nukye" }
+{ "_id" : ObjectId("61a11da49c2c189d8a645cb2"), "name" : "Keloz" }
+{ "_id" : ObjectId("61a11da99c2c189d8a645cb3"), "name" : "Andres" }
+{ "_id" : ObjectId("61a11dae9c2c189d8a645cb4"), "name" : "Cris" }
+{ "_id" : ObjectId("61a11db29c2c189d8a645cb5"), "name" : "Cristian" }
+{ "_id" : ObjectId("61a11db49c2c189d8a645cb6"), "name" : "Cristiana" }
+{ "_id" : ObjectId("61a11dba9c2c189d8a645cb7"), "name" : "Carmen" }
+{ "_id" : ObjectId("61a11dbd9c2c189d8a645cb8"), "name" : "Carmela" }
+{ "_id" : ObjectId("61a11dc79c2c189d8a645cb9"), "name" : "Darwin" }
+{ "_id" : ObjectId("61a11dcc9c2c189d8a645cba"), "name" : "Charles" }
+{ "_id" : ObjectId("61a11dd39c2c189d8a645cbb"), "name" : "Fiorella" }
+{ "_id" : ObjectId("61a11dd99c2c189d8a645cbc"), "name" : "Rosa" }
+{ "_id" : ObjectId("61a11dde9c2c189d8a645cbd"), "name" : "Mela" }
+{ "_id" : ObjectId("61a11de69c2c189d8a645cbe"), "name" : "Melany" }
+{ "_id" : ObjectId("61a11dee9c2c189d8a645cbf"), "name" : "Milena" }
+{ "_id" : ObjectId("61a11df49c2c189d8a645cc0"), "name" : "Niurka" }
+{ "_id" : ObjectId("61a11dfb9c2c189d8a645cc1"), "name" : "Sofia" }
+{ "_id" : ObjectId("61a11e069c2c189d8a645cc2"), "name" : "Loefal" }
+{ "_id" : ObjectId("61a11e1f9c2c189d8a645cc3"), "name" : "Eneko" }
+{ "_id" : ObjectId("61a11e299c2c189d8a645cc4"), "name" : "Tina" }
+{ "_id" : ObjectId("61a11e329c2c189d8a645cc5"), "name" : "Ben" }
+{ "_id" : ObjectId("61a11e3b9c2c189d8a645cc6"), "name" : "Xavi" }
+{ "_id" : ObjectId("61a11e429c2c189d8a645cc7"), "name" : "Iniesta" }
+{ "_id" : ObjectId("61a11e4c9c2c189d8a645cc8"), "name" : "Puebla" }
+{ "_id" : ObjectId("61a11e539c2c189d8a645cc9"), "name" : "Risos" }
+{ "_id" : ObjectId("61a11e5c9c2c189d8a645cca"), "name" : "Ronald" }
+{ "_id" : ObjectId("61a11ea69c2c189d8a645ccb"), "name" : "Javier" }
+{ "_id" : ObjectId("61a11eb29c2c189d8a645ccc"), "name" : "Andrea" }
+{ "_id" : ObjectId("61a11eb69c2c189d8a645ccd"), "name" : "Andriana" }
+{ "_id" : ObjectId("61a11ebd9c2c189d8a645cce"), "name" : "Mishell" }
+{ "_id" : ObjectId("61a11ecf9c2c189d8a645ccf"), "name" : "Estefano" }
+{ "_id" : ObjectId("61a11ed39c2c189d8a645cd0"), "name" : "Estefania" }
+{ "_id" : ObjectId("61a11ed99c2c189d8a645cd1"), "name" : "Lupe" }
+{ "_id" : ObjectId("61a11edd9c2c189d8a645cd2"), "name" : "Yadira" }
+{ "_id" : ObjectId("61a11ee29c2c189d8a645cd3"), "name" : "Ole" }
+{ "_id" : ObjectId("61a11ee69c2c189d8a645cd4"), "name" : "Olevida" }
+{ "_id" : ObjectId("61a11f0d9c2c189d8a645cd5"), "name" : "Gojan" }
+{ "_id" : ObjectId("61a11f169c2c189d8a645cd6"), "name" : "Pablo" }
+> var allRecords = db.clientes.find();
+> while (allRecords.hasNext()){ printjson(allRecords.next()); }
+{ "_id" : ObjectId("61a1198a9c2c189d8a645c73"), "name" : "Joel" }
+{ "_id" : ObjectId("61a1199b9c2c189d8a645c74"), "name" : "Sebastián" }
+{ "_id" : ObjectId("61a119aa9c2c189d8a645c75"), "name" : "Fabián" }
+{ "_id" : ObjectId("61a119b29c2c189d8a645c76"), "name" : "Jorge" }
+{ "_id" : ObjectId("61a119d89c2c189d8a645c77"), "name" : "Aurelio" }
+{ "_id" : ObjectId("61a119de9c2c189d8a645c78"), "name" : "Ana" }
+{ "_id" : ObjectId("61a119e39c2c189d8a645c79"), "name" : "Pepe" }
+{ "_id" : ObjectId("61a119ed9c2c189d8a645c7a"), "name" : "José" }
+{ "_id" : ObjectId("61a119f49c2c189d8a645c7b"), "name" : "Ricardo" }
+{ "_id" : ObjectId("61a119fd9c2c189d8a645c7c"), "name" : "Alejandra" }
+{ "_id" : ObjectId("61a11a099c2c189d8a645c7d"), "name" : "Sara" }
+{ "_id" : ObjectId("61a11a239c2c189d8a645c7e"), "name" : "Josefa" }
+{ "_id" : ObjectId("61a11a319c2c189d8a645c7f"), "name" : "Nicole" }
+{ "_id" : ObjectId("61a11a379c2c189d8a645c80"), "name" : "Alisson" }
+{ "_id" : ObjectId("61a11a3d9c2c189d8a645c81"), "name" : "Naomy" }
+{ "_id" : ObjectId("61a11a439c2c189d8a645c82"), "name" : "Fiona" }
+{ "_id" : ObjectId("61a11a509c2c189d8a645c83"), "name" : "Victor" }
+{ "_id" : ObjectId("61a11a5f9c2c189d8a645c84"), "name" : "Lucas" }
+{ "_id" : ObjectId("61a11a809c2c189d8a645c85"), "name" : "Antonio" }
+{ "_id" : ObjectId("61a11a8b9c2c189d8a645c86"), "name" : "Miguel" }
+{ "_id" : ObjectId("61a11aa29c2c189d8a645c87"), "name" : "Jesús" }
+{ "_id" : ObjectId("61a11aa99c2c189d8a645c88"), "name" : "Roberto" }
+{ "_id" : ObjectId("61a11aaf9c2c189d8a645c89"), "name" : "Anderson" }
+{ "_id" : ObjectId("61a11ad39c2c189d8a645c8a"), "name" : "Diana" }
+{ "_id" : ObjectId("61a11ae49c2c189d8a645c8b"), "name" : "Ferran" }
+{ "_id" : ObjectId("61a11af29c2c189d8a645c8c"), "name" : "Gorka" }
+{ "_id" : ObjectId("61a11b029c2c189d8a645c8d"), "name" : "Leonardo" }
+{ "_id" : ObjectId("61a11b0c9c2c189d8a645c8e"), "name" : "Darío" }
+{ "_id" : ObjectId("61a11b129c2c189d8a645c8f"), "name" : "Angie" }
+{ "_id" : ObjectId("61a11b539c2c189d8a645c90"), "name" : "Juliana" }
+{ "_id" : ObjectId("61a11b919c2c189d8a645c91"), "name" : "Teodoro" }
+{ "_id" : ObjectId("61a11b9e9c2c189d8a645c92"), "name" : "Fermin" }
+{ "_id" : ObjectId("61a11bac9c2c189d8a645c93"), "name" : "Alfonsa" }
+{ "_id" : ObjectId("61a11bc19c2c189d8a645c94"), "name" : "Silvia" }
+{ "_id" : ObjectId("61a11bcf9c2c189d8a645c95"), "name" : "Eusebio" }
+{ "_id" : ObjectId("61a11bdc9c2c189d8a645c96"), "name" : "Noe" }
+{ "_id" : ObjectId("61a11bec9c2c189d8a645c97"), "name" : "Cecilia" }
+{ "_id" : ObjectId("61a11bf39c2c189d8a645c98"), "name" : "Reginaldo" }
+{ "_id" : ObjectId("61a11bf99c2c189d8a645c99"), "name" : "Leonel" }
+{ "_id" : ObjectId("61a11c129c2c189d8a645c9a"), "name" : "Cristiano" }
+{ "_id" : ObjectId("61a11c239c2c189d8a645c9b"), "name" : "Naiara" }
+{ "_id" : ObjectId("61a11c339c2c189d8a645c9c"), "name" : "Laureano" }
+{ "_id" : ObjectId("61a11c469c2c189d8a645c9d"), "name" : "Adriana" }
+{ "_id" : ObjectId("61a11c589c2c189d8a645c9e"), "name" : "Constantin" }
+{ "_id" : ObjectId("61a11c6e9c2c189d8a645c9f"), "name" : "Jesica" }
+{ "_id" : ObjectId("61a11c749c2c189d8a645ca0"), "name" : "Ximena" }
+{ "_id" : ObjectId("61a11c879c2c189d8a645ca1"), "name" : "Azucena" }
+{ "_id" : ObjectId("61a11c999c2c189d8a645ca2"), "name" : "Mariano" }
+{ "_id" : ObjectId("61a11cf09c2c189d8a645ca3"), "name" : "Desiree" }
+{ "_id" : ObjectId("61a11cff9c2c189d8a645ca4"), "name" : "Andoni" }
+{ "_id" : ObjectId("61a11d0b9c2c189d8a645ca5"), "name" : "Maite" }
+{ "_id" : ObjectId("61a11d109c2c189d8a645ca6"), "name" : "Leo" }
+{ "_id" : ObjectId("61a11d169c2c189d8a645ca7"), "name" : "Fernando" }
+{ "_id" : ObjectId("61a11d199c2c189d8a645ca8"), "name" : "Fernanda" }
+{ "_id" : ObjectId("61a11d559c2c189d8a645ca9"), "name" : "Azahara" }
+{ "_id" : ObjectId("61a11d629c2c189d8a645caa"), "name" : "ÓScar" }
+{ "_id" : ObjectId("61a11d729c2c189d8a645cab"), "name" : "Pamela" }
+{ "_id" : ObjectId("61a11d789c2c189d8a645cac"), "name" : "Andy" }
+{ "_id" : ObjectId("61a11d7d9c2c189d8a645cad"), "name" : "Goku" }
+{ "_id" : ObjectId("61a11d8c9c2c189d8a645cae"), "name" : "Hiko" }
+{ "_id" : ObjectId("61a11d919c2c189d8a645caf"), "name" : "Mixwell" }
+{ "_id" : ObjectId("61a11d979c2c189d8a645cb0"), "name" : "Hasbulla" }
+{ "_id" : ObjectId("61a11d9d9c2c189d8a645cb1"), "name" : "Nukye" }
+{ "_id" : ObjectId("61a11da49c2c189d8a645cb2"), "name" : "Keloz" }
+{ "_id" : ObjectId("61a11da99c2c189d8a645cb3"), "name" : "Andres" }
+{ "_id" : ObjectId("61a11dae9c2c189d8a645cb4"), "name" : "Cris" }
+{ "_id" : ObjectId("61a11db29c2c189d8a645cb5"), "name" : "Cristian" }
+{ "_id" : ObjectId("61a11db49c2c189d8a645cb6"), "name" : "Cristiana" }
+{ "_id" : ObjectId("61a11dba9c2c189d8a645cb7"), "name" : "Carmen" }
+{ "_id" : ObjectId("61a11dbd9c2c189d8a645cb8"), "name" : "Carmela" }
+{ "_id" : ObjectId("61a11dc79c2c189d8a645cb9"), "name" : "Darwin" }
+{ "_id" : ObjectId("61a11dcc9c2c189d8a645cba"), "name" : "Charles" }
+{ "_id" : ObjectId("61a11dd39c2c189d8a645cbb"), "name" : "Fiorella" }
+{ "_id" : ObjectId("61a11dd99c2c189d8a645cbc"), "name" : "Rosa" }
+{ "_id" : ObjectId("61a11dde9c2c189d8a645cbd"), "name" : "Mela" }
+{ "_id" : ObjectId("61a11de69c2c189d8a645cbe"), "name" : "Melany" }
+{ "_id" : ObjectId("61a11dee9c2c189d8a645cbf"), "name" : "Milena" }
+{ "_id" : ObjectId("61a11df49c2c189d8a645cc0"), "name" : "Niurka" }
+{ "_id" : ObjectId("61a11dfb9c2c189d8a645cc1"), "name" : "Sofia" }
+{ "_id" : ObjectId("61a11e069c2c189d8a645cc2"), "name" : "Loefal" }
+{ "_id" : ObjectId("61a11e1f9c2c189d8a645cc3"), "name" : "Eneko" }
+{ "_id" : ObjectId("61a11e299c2c189d8a645cc4"), "name" : "Tina" }
+{ "_id" : ObjectId("61a11e329c2c189d8a645cc5"), "name" : "Ben" }
+{ "_id" : ObjectId("61a11e3b9c2c189d8a645cc6"), "name" : "Xavi" }
+{ "_id" : ObjectId("61a11e429c2c189d8a645cc7"), "name" : "Iniesta" }
+{ "_id" : ObjectId("61a11e4c9c2c189d8a645cc8"), "name" : "Puebla" }
+{ "_id" : ObjectId("61a11e539c2c189d8a645cc9"), "name" : "Risos" }
+{ "_id" : ObjectId("61a11e5c9c2c189d8a645cca"), "name" : "Ronald" }
+{ "_id" : ObjectId("61a11ea69c2c189d8a645ccb"), "name" : "Javier" }
+{ "_id" : ObjectId("61a11eb29c2c189d8a645ccc"), "name" : "Andrea" }
+{ "_id" : ObjectId("61a11eb69c2c189d8a645ccd"), "name" : "Andriana" }
+{ "_id" : ObjectId("61a11ebd9c2c189d8a645cce"), "name" : "Mishell" }
+{ "_id" : ObjectId("61a11ecf9c2c189d8a645ccf"), "name" : "Estefano" }
+{ "_id" : ObjectId("61a11ed39c2c189d8a645cd0"), "name" : "Estefania" }
+{ "_id" : ObjectId("61a11ed99c2c189d8a645cd1"), "name" : "Lupe" }
+{ "_id" : ObjectId("61a11edd9c2c189d8a645cd2"), "name" : "Yadira" }
+{ "_id" : ObjectId("61a11ee29c2c189d8a645cd3"), "name" : "Ole" }
+{ "_id" : ObjectId("61a11ee69c2c189d8a645cd4"), "name" : "Olevida" }
+{ "_id" : ObjectId("61a11f0d9c2c189d8a645cd5"), "name" : "Gojan" }
+{ "_id" : ObjectId("61a11f169c2c189d8a645cd6"), "name" : "Pablo" }
+> db.clientes.save({_id:ObjectId('61a1198a9c2c189d8a645c73'),"cliente":"cliente1"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a1199b9c2c189d8a645c74'),"cliente":"cliente2"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a119aa9c2c189d8a645c75'),"cliente":"cliente3"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a119b29c2c189d8a645c76'),"cliente":"cliente4"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a119d89c2c189d8a645c77'),"cliente":"cliente5"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a119de9c2c189d8a645c78'),"cliente":"cliente6"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a119e39c2c189d8a645c79'),"cliente":"cliente7"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a119ed9c2c189d8a645c7a'),"cliente":"cliente8"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a119f49c2c189d8a645c7b'),"cliente":"cliente9"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a119fd9c2c189d8a645c7c'),"cliente":"cliente10"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a119fd9c2c189d8a645c7c'),"cliente":"cliente11"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a099c2c189d8a645c7d'),"cliente":"cliente12"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a239c2c189d8a645c7e'),"cliente":"cliente13"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a319c2c189d8a645c7f'),"cliente":"cliente14"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a379c2c189d8a645c80'),"cliente":"cliente15"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a3d9c2c189d8a645c81'),"cliente":"cliente16"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a439c2c189d8a645c82'),"cliente":"cliente17"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a509c2c189d8a645c83'),"cliente":"cliente18"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a5f9c2c189d8a645c84'),"cliente":"cliente19"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a809c2c189d8a645c85'),"cliente":"cliente20"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11a8b9c2c189d8a645c86'),"cliente":"cliente21"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11aa29c2c189d8a645c87'),"cliente":"cliente22"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11aa99c2c189d8a645c88'),"cliente":"cliente23"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11aaf9c2c189d8a645c89'),"cliente":"cliente24"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11ad39c2c189d8a645c8a'),"cliente":"cliente25"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11ae49c2c189d8a645c8b'),"cliente":"cliente26"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11af29c2c189d8a645c8c'),"cliente":"cliente27"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11b029c2c189d8a645c8d'),"cliente":"cliente28"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11b0c9c2c189d8a645c8e'),"cliente":"cliente29"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11b129c2c189d8a645c8f'),"cliente":"cliente30"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11b539c2c189d8a645c90'),"cliente":"cliente31"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11b919c2c189d8a645c91'),"cliente":"cliente32"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11b9e9c2c189d8a645c92'),"cliente":"cliente33"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11bac9c2c189d8a645c93'),"cliente":"cliente34"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11bc19c2c189d8a645c94'),"cliente":"cliente35"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11bcf9c2c189d8a645c95'),"cliente":"cliente36"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11bdc9c2c189d8a645c96'),"cliente":"cliente37"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11bec9c2c189d8a645c97'),"cliente":"cliente38"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11bf39c2c189d8a645c98'),"cliente":"cliente39"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11bf99c2c189d8a645c99'),"cliente":"cliente40"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11c129c2c189d8a645c9a'),"cliente":"cliente41"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11c239c2c189d8a645c9b'),"cliente":"cliente42"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11c339c2c189d8a645c9c'),"cliente":"cliente43"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11c469c2c189d8a645c9d'),"cliente":"cliente44"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11c589c2c189d8a645c9e'),"cliente":"cliente45"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11c6e9c2c189d8a645c9f'),"cliente":"cliente46"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11c879c2c189d8a645ca1'),"cliente":"cliente47"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11c999c2c189d8a645ca2'),"cliente":"cliente48"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11cf09c2c189d8a645ca3'),"cliente":"cliente49"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11cff9c2c189d8a645ca4'),"cliente":"cliente50"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d0b9c2c189d8a645ca5'),"cliente":"cliente51"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d109c2c189d8a645ca6'),"cliente":"cliente52"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d169c2c189d8a645ca7'),"cliente":"cliente53"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d199c2c189d8a645ca8'),"cliente":"cliente54"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d559c2c189d8a645ca9'),"cliente":"cliente55"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d629c2c189d8a645caa'),"cliente":"cliente56"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d729c2c189d8a645cab'),"cliente":"cliente57"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d789c2c189d8a645cac'),"cliente":"cliente58"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d7d9c2c189d8a645cad'),"cliente":"cliente59"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d8c9c2c189d8a645cae'),"cliente":"cliente60"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d979c2c189d8a645cb0'),"cliente":"cliente62"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d919c2c189d8a645caf'),"cliente":"cliente61"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d9d9c2c189d8a645cb1'),"cliente":"cliente63"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11da49c2c189d8a645cb2'),"cliente":"cliente64"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11da99c2c189d8a645cb3'),"cliente":"cliente65"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11dae9c2c189d8a645cb4'),"cliente":"cliente66"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11db29c2c189d8a645cb5'),"cliente":"cliente67"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11db49c2c189d8a645cb6'),"cliente":"cliente68"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11dba9c2c189d8a645cb7'),"cliente":"cliente69"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11dbd9c2c189d8a645cb8'),"cliente":"cliente70"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.clientes.save({_id:ObjectId('61a11d919c2c189d8a645caf'),"cliente":"cliente61"});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 0 })
+> var allRecords = db.clientes.find();
+>  while (allRecords.hasNext()){ printjson(allRecords.next()); }
+{ "_id" : ObjectId("61a1198a9c2c189d8a645c73"), "cliente" : "cliente1" }
+{ "_id" : ObjectId("61a1199b9c2c189d8a645c74"), "cliente" : "cliente2" }
+{ "_id" : ObjectId("61a119aa9c2c189d8a645c75"), "cliente" : "cliente3" }
+{ "_id" : ObjectId("61a119b29c2c189d8a645c76"), "cliente" : "cliente4" }
+{ "_id" : ObjectId("61a119d89c2c189d8a645c77"), "cliente" : "cliente5" }
+{ "_id" : ObjectId("61a119de9c2c189d8a645c78"), "cliente" : "cliente6" }
+{ "_id" : ObjectId("61a119e39c2c189d8a645c79"), "cliente" : "cliente7" }
+{ "_id" : ObjectId("61a119ed9c2c189d8a645c7a"), "cliente" : "cliente8" }
+{ "_id" : ObjectId("61a119f49c2c189d8a645c7b"), "cliente" : "cliente9" }
+{ "_id" : ObjectId("61a119fd9c2c189d8a645c7c"), "cliente" : "cliente11" }
+{ "_id" : ObjectId("61a11a099c2c189d8a645c7d"), "cliente" : "cliente12" }
+{ "_id" : ObjectId("61a11a239c2c189d8a645c7e"), "cliente" : "cliente13" }
+{ "_id" : ObjectId("61a11a319c2c189d8a645c7f"), "cliente" : "cliente14" }
+{ "_id" : ObjectId("61a11a379c2c189d8a645c80"), "cliente" : "cliente15" }
+{ "_id" : ObjectId("61a11a3d9c2c189d8a645c81"), "cliente" : "cliente16" }
+{ "_id" : ObjectId("61a11a439c2c189d8a645c82"), "cliente" : "cliente17" }
+{ "_id" : ObjectId("61a11a509c2c189d8a645c83"), "cliente" : "cliente18" }
+{ "_id" : ObjectId("61a11a5f9c2c189d8a645c84"), "cliente" : "cliente19" }
+{ "_id" : ObjectId("61a11a809c2c189d8a645c85"), "cliente" : "cliente20" }
+{ "_id" : ObjectId("61a11a8b9c2c189d8a645c86"), "cliente" : "cliente21" }
+{ "_id" : ObjectId("61a11aa29c2c189d8a645c87"), "cliente" : "cliente22" }
+{ "_id" : ObjectId("61a11aa99c2c189d8a645c88"), "cliente" : "cliente23" }
+{ "_id" : ObjectId("61a11aaf9c2c189d8a645c89"), "cliente" : "cliente24" }
+{ "_id" : ObjectId("61a11ad39c2c189d8a645c8a"), "cliente" : "cliente25" }
+{ "_id" : ObjectId("61a11ae49c2c189d8a645c8b"), "cliente" : "cliente26" }
+{ "_id" : ObjectId("61a11af29c2c189d8a645c8c"), "cliente" : "cliente27" }
+{ "_id" : ObjectId("61a11b029c2c189d8a645c8d"), "cliente" : "cliente28" }
+{ "_id" : ObjectId("61a11b0c9c2c189d8a645c8e"), "cliente" : "cliente29" }
+{ "_id" : ObjectId("61a11b129c2c189d8a645c8f"), "cliente" : "cliente30" }
+{ "_id" : ObjectId("61a11b539c2c189d8a645c90"), "cliente" : "cliente31" }
+{ "_id" : ObjectId("61a11b919c2c189d8a645c91"), "cliente" : "cliente32" }
+{ "_id" : ObjectId("61a11b9e9c2c189d8a645c92"), "cliente" : "cliente33" }
+{ "_id" : ObjectId("61a11bac9c2c189d8a645c93"), "cliente" : "cliente34" }
+{ "_id" : ObjectId("61a11bc19c2c189d8a645c94"), "cliente" : "cliente35" }
+{ "_id" : ObjectId("61a11bcf9c2c189d8a645c95"), "cliente" : "cliente36" }
+{ "_id" : ObjectId("61a11bdc9c2c189d8a645c96"), "cliente" : "cliente37" }
+{ "_id" : ObjectId("61a11bec9c2c189d8a645c97"), "cliente" : "cliente38" }
+{ "_id" : ObjectId("61a11bf39c2c189d8a645c98"), "cliente" : "cliente39" }
+{ "_id" : ObjectId("61a11bf99c2c189d8a645c99"), "cliente" : "cliente40" }
+{ "_id" : ObjectId("61a11c129c2c189d8a645c9a"), "cliente" : "cliente41" }
+{ "_id" : ObjectId("61a11c239c2c189d8a645c9b"), "cliente" : "cliente42" }
+{ "_id" : ObjectId("61a11c339c2c189d8a645c9c"), "cliente" : "cliente43" }
+{ "_id" : ObjectId("61a11c469c2c189d8a645c9d"), "cliente" : "cliente44" }
+{ "_id" : ObjectId("61a11c589c2c189d8a645c9e"), "cliente" : "cliente45" }
+{ "_id" : ObjectId("61a11c6e9c2c189d8a645c9f"), "cliente" : "cliente46" }
+{ "_id" : ObjectId("61a11c749c2c189d8a645ca0"), "name" : "Ximena" }
+{ "_id" : ObjectId("61a11c879c2c189d8a645ca1"), "cliente" : "cliente47" }
+{ "_id" : ObjectId("61a11c999c2c189d8a645ca2"), "cliente" : "cliente48" }
+{ "_id" : ObjectId("61a11cf09c2c189d8a645ca3"), "cliente" : "cliente49" }
+{ "_id" : ObjectId("61a11cff9c2c189d8a645ca4"), "cliente" : "cliente50" }
+{ "_id" : ObjectId("61a11d0b9c2c189d8a645ca5"), "cliente" : "cliente51" }
+{ "_id" : ObjectId("61a11d109c2c189d8a645ca6"), "cliente" : "cliente52" }
+{ "_id" : ObjectId("61a11d169c2c189d8a645ca7"), "cliente" : "cliente53" }
+{ "_id" : ObjectId("61a11d199c2c189d8a645ca8"), "cliente" : "cliente54" }
+{ "_id" : ObjectId("61a11d559c2c189d8a645ca9"), "cliente" : "cliente55" }
+{ "_id" : ObjectId("61a11d629c2c189d8a645caa"), "cliente" : "cliente56" }
+{ "_id" : ObjectId("61a11d729c2c189d8a645cab"), "cliente" : "cliente57" }
+{ "_id" : ObjectId("61a11d789c2c189d8a645cac"), "cliente" : "cliente58" }
+{ "_id" : ObjectId("61a11d7d9c2c189d8a645cad"), "cliente" : "cliente59" }
+{ "_id" : ObjectId("61a11d8c9c2c189d8a645cae"), "cliente" : "cliente60" }
+{ "_id" : ObjectId("61a11d919c2c189d8a645caf"), "cliente" : "cliente61" }
+{ "_id" : ObjectId("61a11d979c2c189d8a645cb0"), "cliente" : "cliente62" }
+{ "_id" : ObjectId("61a11d9d9c2c189d8a645cb1"), "cliente" : "cliente63" }
+{ "_id" : ObjectId("61a11da49c2c189d8a645cb2"), "cliente" : "cliente64" }
+{ "_id" : ObjectId("61a11da99c2c189d8a645cb3"), "cliente" : "cliente65" }
+{ "_id" : ObjectId("61a11dae9c2c189d8a645cb4"), "cliente" : "cliente66" }
+{ "_id" : ObjectId("61a11db29c2c189d8a645cb5"), "cliente" : "cliente67" }
+{ "_id" : ObjectId("61a11db49c2c189d8a645cb6"), "cliente" : "cliente68" }
+{ "_id" : ObjectId("61a11dba9c2c189d8a645cb7"), "cliente" : "cliente69" }
+{ "_id" : ObjectId("61a11dbd9c2c189d8a645cb8"), "cliente" : "cliente70" }
+{ "_id" : ObjectId("61a11dc79c2c189d8a645cb9"), "name" : "Darwin" }
+{ "_id" : ObjectId("61a11dcc9c2c189d8a645cba"), "name" : "Charles" }
+{ "_id" : ObjectId("61a11dd39c2c189d8a645cbb"), "name" : "Fiorella" }
+{ "_id" : ObjectId("61a11dd99c2c189d8a645cbc"), "name" : "Rosa" }
+{ "_id" : ObjectId("61a11dde9c2c189d8a645cbd"), "name" : "Mela" }
+{ "_id" : ObjectId("61a11de69c2c189d8a645cbe"), "name" : "Melany" }
+{ "_id" : ObjectId("61a11dee9c2c189d8a645cbf"), "name" : "Milena" }
+{ "_id" : ObjectId("61a11df49c2c189d8a645cc0"), "name" : "Niurka" }
+{ "_id" : ObjectId("61a11dfb9c2c189d8a645cc1"), "name" : "Sofia" }
+{ "_id" : ObjectId("61a11e069c2c189d8a645cc2"), "name" : "Loefal" }
+{ "_id" : ObjectId("61a11e1f9c2c189d8a645cc3"), "name" : "Eneko" }
+{ "_id" : ObjectId("61a11e299c2c189d8a645cc4"), "name" : "Tina" }
+{ "_id" : ObjectId("61a11e329c2c189d8a645cc5"), "name" : "Ben" }
+{ "_id" : ObjectId("61a11e3b9c2c189d8a645cc6"), "name" : "Xavi" }
+{ "_id" : ObjectId("61a11e429c2c189d8a645cc7"), "name" : "Iniesta" }
+{ "_id" : ObjectId("61a11e4c9c2c189d8a645cc8"), "name" : "Puebla" }
+{ "_id" : ObjectId("61a11e539c2c189d8a645cc9"), "name" : "Risos" }
+{ "_id" : ObjectId("61a11e5c9c2c189d8a645cca"), "name" : "Ronald" }
+{ "_id" : ObjectId("61a11ea69c2c189d8a645ccb"), "name" : "Javier" }
+{ "_id" : ObjectId("61a11eb29c2c189d8a645ccc"), "name" : "Andrea" }
+{ "_id" : ObjectId("61a11eb69c2c189d8a645ccd"), "name" : "Andriana" }
+{ "_id" : ObjectId("61a11ebd9c2c189d8a645cce"), "name" : "Mishell" }
+{ "_id" : ObjectId("61a11ecf9c2c189d8a645ccf"), "name" : "Estefano" }
+{ "_id" : ObjectId("61a11ed39c2c189d8a645cd0"), "name" : "Estefania" }
+{ "_id" : ObjectId("61a11ed99c2c189d8a645cd1"), "name" : "Lupe" }
+{ "_id" : ObjectId("61a11edd9c2c189d8a645cd2"), "name" : "Yadira" }
+{ "_id" : ObjectId("61a11ee29c2c189d8a645cd3"), "name" : "Ole" }
+{ "_id" : ObjectId("61a11ee69c2c189d8a645cd4"), "name" : "Olevida" }
+{ "_id" : ObjectId("61a11f0d9c2c189d8a645cd5"), "name" : "Gojan" }
+{ "_id" : ObjectId("61a11f169c2c189d8a645cd6"), "name" : "Pablo" }
